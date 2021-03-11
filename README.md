@@ -43,6 +43,7 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+Creating Functions within Functions that have their own set of instructions and variables that can't be accessed by the outer function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -64,8 +65,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+Within the return function, if someone attempted to make changes to or return newRoll outside of the return Function it not work.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+The functionality of the dansRoll function would always be the same however due to the use of Math.random, it would almost always return something different.
+c. What is the lexical scope of `newRoll`? The random math equation.
 
 
 ### Task 3 - Stretch Goals
